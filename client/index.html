@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Back End Assessment</title>
+  </head>
+  <body class="container">
+    <button id="complimentButton">Get a compliment</button>
+
+    <button id="fortuneButton">Get a Fortune!</button>
+
+
+
+<br />
+<br />
+<br />
+<br />
+<br />
+<br />
+
+<section>
+  <h2> Welcome to your Dream Journal!</h2>
+  <form id="add-dream">
+    <label for="newDream">Dream</label>
+    <input type="text" id="newDream" placeholder="What did you dream about last night?" />
+    <button type="submit">Journal my Dream</button>
+  </form>
+</section>
+
+<section>
+  <h4>Update Dream Patterns</h4>
+  <form id="update-form">
+    <label for="dream">Dream Id:</label>
+    <input type="number" id="dream-id"/>
+    <br />
+    <br /> 
+    <label for="update-dream">Dream:</label>
+    <input
+      type="text"
+      id="update-dream"
+      placeholder="edit your dreamning"
+    />
+    <br />
+    <br />
+
+    <button type="submit">Update my Dream</button>
+  </form>
+</section>
+<br />
+<br />
+<br />
+<br />
+<button id = "delete-form">Delete my Dream</button>
+
+
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
+
